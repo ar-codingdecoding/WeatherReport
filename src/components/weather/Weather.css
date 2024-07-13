@@ -1,0 +1,49 @@
+
+  .weather {
+    width: 100%;
+    max-width: 350px;
+    height: 80vh;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    z-index: 999;
+    box-shadow: 0 40px 80px 0 rgba(3, 49, 124, 0.5), 0 60px 200px 0 rgba(1, 2, 61, 0.4);;
+  }
+  .dateline {
+    background-color: rgba(166, 162, 87, 0.4);
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+  
+  .weather::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  
+  .weather-app {
+    z-index: 999;
+  }
+  
+  .weather-app > *,
+  .result > * {
+    color: #fff;
+  }
+  
+  .result {
+    background: rgba(125, 131, 135, 0.4);
+  }
+  
+  .error {
+    background: rgba(255, 0, 4, 0.3);
+    padding: 1rem;
+  }
+  

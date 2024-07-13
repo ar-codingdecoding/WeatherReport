@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  
+    background: rgb(150, 208, 240);
+    background: linear-gradient(
+      135deg,
+      rgb(179, 196, 225) 35%,
+      rgb(157, 186, 214) 46%
+    );
+}
+
+  
+  
+.add {
+  margin: auto 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.2rem 3rem;
+  font-size: 9rem;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color:brown;
+}
+.remove {
+  margin: auto 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.3rem 4.2rem;
+  font-size: 9rem;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color:brown;
+}
+@media screen and (max-width: 820px){
+  .App {
+    flex-direction: column;
+  }
+  .add {
+    margin: auto auto;
+  }
+  .remove {
+    margin: auto auto;
+  }
+}
