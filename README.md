@@ -1,6 +1,7 @@
 # WeatherReport
 
-# Live Demo : https://weather-report-mocha.vercel.app/
+## Live Demo 
+https://weather-report-mocha.vercel.app/
 
 ## Overview
 WeatherReport is a web application that provides real-time weather updates for various locations. It fetches weather data from an API and displays key information such as temperature, humidity, wind speed, and weather conditions.
